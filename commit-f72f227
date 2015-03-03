@@ -1,0 +1,22 @@
+commit f72f227cb65587c1df591525c18abf06df14e02a
+Author: Taeiou <tom_vaessen@hotmail.com>
+Date:   Tue Mar 3 01:21:52 2015 +0100
+
+    hier komt een mooie commit message
+
+diff --git a/atom.py b/atom.py
+index 5b98f02..f0e45d6 100644
+--- a/atom.py
++++ b/atom.py
+@@ -101,8 +101,11 @@ def randAppleGen():
+     randAppley = round(random.randrange(0,display_height-AppleThickness))#/10.0)*10.0
+     return randApplex,randAppley
+ 
++
++
+ def snake(block_size,snakeList):
+ 
++
+     if direction=="right":
+         head=pygame.transform.rotate(img,270)
+     if direction=="left":

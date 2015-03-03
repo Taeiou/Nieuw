@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # -*-coding:utf-8-*-
+
+###Is dit nieuwigheid?
+
 import pygame,sys
 import win32api,win32console,win32gui,codecs
 import time,random
 from pygame.sprite import Sprite
 
 pygame.init()
+kjhlkjdh
 
 win = win32console.GetConsoleWindow()
 win32gui.ShowWindow(win,0)
@@ -101,7 +105,10 @@ def randAppleGen():
     randAppley = round(random.randrange(0,display_height-AppleThickness))#/10.0)*10.0
     return randApplex,randAppley
 
+
+
 def snake(block_size,snakeList):
+
 
     if direction=="right":
         head=pygame.transform.rotate(img,270)
