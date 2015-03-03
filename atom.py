@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # -*-coding:utf-8-*-
+
+###Is dit nieuwigheid?
+
 import pygame,sys
 import win32api,win32console,win32gui,codecs
 import time,random
 from pygame.sprite import Sprite
 
 pygame.init()
+kjhlkjdh
 
 win = win32console.GetConsoleWindow()
 win32gui.ShowWindow(win,0)
