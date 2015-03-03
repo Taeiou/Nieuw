@@ -101,7 +101,10 @@ def randAppleGen():
     randAppley = round(random.randrange(0,display_height-AppleThickness))#/10.0)*10.0
     return randApplex,randAppley
 
+
+
 def snake(block_size,snakeList):
+
 
     if direction=="right":
         head=pygame.transform.rotate(img,270)
