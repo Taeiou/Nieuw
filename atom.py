@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*-coding:utf-8-*-
+#hier ook iets bij 0126
 
-###Is dit nieuwigheid?
+##Is dit nieuwigheid?
 
 import pygame,sys
 import win32api,win32console,win32gui,codecs
